@@ -1,7 +1,7 @@
 [project]
 name = "viddl"
 version = "0.1.0"
-description = "CLI utility to download YouTube videos in full quality"
+description = "CLI utility to download videos"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
@@ -9,6 +9,7 @@ authors = [
   { name = "Taavi" }
 ]
 dependencies = [
+  "curl-cffi>=0.10,<0.14",
   "yt-dlp>=2024.08.06",
 ]
 
